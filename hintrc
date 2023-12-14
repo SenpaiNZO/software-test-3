@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-touch-action",
+          "text-align: -webkit-match-parent",
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color",
+          "text-decoration-skip-ink",
+          "-webkit-overflow-scrolling",
+          "-webkit-overflow-scrolling",
+          "overflow-anchor",
+          "text-underline-offset",
+          "text-underline-offset",
+          "text-underline-offset",
+          "text-underline-offset"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 119",
+    "not and_ff <= 119"
+  ]
+}
